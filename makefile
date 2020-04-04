@@ -4,6 +4,7 @@ LDFLAGS= -lm
 CC= gcc
 
 run: all
+	./main script2
 	./main script
 
 all: $(OBJECTS)
